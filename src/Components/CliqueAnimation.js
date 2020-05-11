@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 var toggle = false;
 
+//não usei o toggle da maneira mais elegante pois teria que fazer varias alterações não necessarias no momentos
+
 export default function CliqueAnimation() {
     
     if(toggle == false ){
